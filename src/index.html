@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./images/green.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <meta name="description" content="caferio is a online food service based in camerounian fast and delivery easy food service." />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <title>green | plant app online</title>
+</head>
+<body>
+    <section class="w-full h-full flex">
+        <div class="w-1/5 h-full  ">
+            <div class="flex  items-center border-b">
+                <img src="./images/green.png" class="w-[100px] h-[70px]"  alt="">
+                <span class="text-bold text-xl text-green-700 font-bold">green</span>
+            </div>
+            <div class="flex flex-col items-center justify-center  border-black/5 border-r">
+                <div class="w-full border-b p-4 pl-8 border-black/10">
+                    <span class="capitalize text-lg">filter</span>
+                </div>
+                <div class="flex flex-col pl-14 space-y-4 p-8 pt-4 border-b border-black/5">
+                    <span class="capitalize text-lg">categories</span>
+                    <ul class="flex flex-col space-y-2">
+                        <li class=" capitalize"><input type="checkbox" checked class=" m-2 text-base">gardening</li>
+                        <li class=" capitalize"><input type="checkbox" class=" m-2 text-base">plant</li>
+                        <li class=" capitalize"><input type="checkbox" class=" m-2 text-base">seeds</li>
+                        <li class=" capitalize"><input type="checkbox" class=" m-2 text-base">buibs</li>
+                        <li class=" capitalize"><input type="checkbox" class=" m-2 text-base">planters</li>
+                        <li class=" capitalize m-8">others<i class="bi bi-caret-down pl-4 text-base"></i></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col pl-14 space-y-4 p-8 border-b border-black/5">
+                    <span class="capitalize text-lg">price range</span>
+                    <div class="flex justify-between space-x-2">
+                        <button class="border-black/5 border text-black/20 px-6 py-1 text-center">Min</button>
+                        <button class="border-black/50 rounded-md border text-black/90 px-6 py-1 text-center">$400</button>
+                    </div>
+                    <button class="border-none text-white bg-green-600 rounded-lg px-6 py-2 text-center">Set price</button>
+                </div>
+                <div class="flex flex-col pl-14 space-y-4 p-8 border-b border-black/5">
+                    <div class="">
+                        <span class="capitalize text-lg">rating</span>
+                        <div class="flex space-x-1">
+                            <input type="checkbox" class="mr-4">
+                            <i class="bi bi-star-fill text-yellow-300"></i>
+                            <i class="bi bi-star-fill text-yellow-300"></i>
+                            <i class="bi bi-star-fill text-yellow-300"></i>
+                            <i class="bi bi-star-fill text-yellow-300"></i>
+                            <i class="bi bi-star text-black/10"></i>
+                            <span class="pl-4">above</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[80%] items-start rounded-xl justify-center p-6 bg-green-600 mt-3">
+                    <div class="py-6 flex flex-col space-y-3 ">
+                        <span class=" uppercase text-white font-bold">Get 30% OFF </span>
+                        <span class="text-xs text-white">Share your referral code and get discount </span>
+                        <button class="border-none text-black bg-yellow-400 rounded-lg px-4 py-1 text-center">share</button>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <div class="w-full">
+            <div class="flex border-b border-black/5">
+                <div class="flex w-3/5">
+                    <ul class="flex w-3/4 items-center justify-around">
+                        <li class="py-5 pb-6 border-b-2 border-green-700" id="btnNav"><a href="#" class="capitalize text-base">shop</a></li>
+                        <li class="text-black/40 py-5 pb-6" id="btnNav"><a href="#" class="capitalize text-base">plant care</a></li>
+                        <li class="text-black/40 py-5 pb-6" id="btnNav"><a href="#" class="capitalize text-base">workshop</a></li>
+                        <li class="text-black/40 py-5 pb-6" id="btnNav"><a href="#" class="capitalize text-base">blog</a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-end space-x-10 mr-4 w-2/5">
+                    <i class="bi bi-bag text-lg"></i>
+                    <i class="bi bi-heart text-lg"></i>
+                    <img src="./images/customer/user-5.jpg" class="rounded-full overflow-hidden w-[40px] h-[40px]">
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-3/5 flex flex-col px-4">
+                    <span class="flex items-center my-3">
+                        <i class="bi bi-search absolute z-20 text-black/40 px-3"><span class="pl-5 "></span></i>
+                        <input type="text" placeholder="votre recherche" class= "w-full px-8 py-2 rounded-lg border">
+                    </span>
+                    <span class=" font-extralight text-black/40 ">
+                        search result for
+                    </span>
+                    <div class="flex items-center space-x-5 mt-6">
+                        <span>Sort</span>
+                        <button class="border-none text-white bg-green-600 rounded-3xl px-6 py-2 text-center">Relevance</button>
+                        <button class="border-none text-black/80 bg-green-50 rounded-3xl px-6 py-2 text-center">Popular</button>
+                        <button class="border-none text-black/80 bg-green-50 rounded-3xl px-6 py-2 text-center">new more</button>
+                        <button class="border-none text-black/80 bg-green-50 rounded-3xl px-6 py-2 text-center">price</button>
+                    </div>
+                    <div class="mt-5 flex flex-wrap space-x-2 justify-around space-y-3 items-center">
+                        <div class="w-2/5 border rounded-2xl h-[350px] p-7 flex flex-col space-y-8">
+                            <div class="w-full relative h-[50%] flex items-center justify-center cursor-help">
+                                <img src="./images/plant/plant1.png" id="imagePlant" alt="">
+                                <div class=" absolute top-0 right-0 flex items-center justify-center bg-red-100 w-[40px] h-[40px] rounded-md">
+                                    <i class="bi bi-heart-fill  text-red-500"></i>
+                                </div>
+                            </div>
+                            <div class="flex flex-col space-y-3 items-start">
+                                <span>Montera Dk Var</span>
+                                <span class="text-yellow-500">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <span>(85)</span>
+                                </span>
+                                <div class="flex flex-row space-x-10">
+                                    <div class=" flex flex-col">
+                                        <span class="text-black/60">price</span>
+                                        <span>$350</span>
+                                    </div>
+                                    <button class="border-none text-black/80 bg-green-100 rounded-3xl px-3 py-2 text-center">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-2/5 border rounded-2xl h-[350px] p-7 flex flex-col space-y-8">
+                            <div class="w-full relative h-[50%] flex items-center justify-center cursor-help">
+                                <img src="./images/plant/plant3.png" id="imagePlant" alt="">
+                               
+                                    <i class="absolute top-0 right-0 bi bi-heart  text-red-500"></i>
+                                
+                            </div>
+                            <div class="flex flex-col space-y-3 items-start">
+                                <span>Montera Dk Var</span>
+                                <span class="text-yellow-500">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <span>(185)</span>
+                                </span>
+                                <div class="flex flex-row space-x-10">
+                                    <div class=" flex flex-col">
+                                        <span class="text-black/60">price</span>
+                                        <span>$550</span>
+                                    </div>
+                                    <button class="border-none text-black/80 bg-green-100 rounded-3xl px-3 py-2 text-center">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-2/5 border rounded-2xl h-[350px] p-7 flex flex-col space-y-8">
+                            <div class="w-full relative h-[55%] flex items-center justify-center cursor-help">
+                                <img src="./images/plant/plant2.png " id="imagePlant" class=""  alt="">
+                                <i class="absolute top-0 right-0 bi bi-heart  text-red-500"></i>
+                            </div>
+                            <div class="flex flex-col space-y-3 items-start">
+                                <span>Montera Dk Var</span>
+                                <span class="text-yellow-500">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <span>(85)</span>
+                                </span>
+                                <div class="flex flex-row space-x-10">
+                                    <div class=" flex flex-col">
+                                        <span class="text-black/60">price</span>
+                                        <span>$350</span>
+                                    </div>
+                                    <button class="border-none text-black/80 bg-green-100 rounded-3xl px-3 py-2 text-center">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-2/5 border rounded-2xl h-[350px] p-7 flex flex-col space-y-8">
+                            <div class="w-full relative h-[50%] flex items-center justify-center cursor-help">
+                                <img src="./images/plant/plant4.png" id="imagePlant" alt="">
+                                    <i class="absolute top-0 right-0 bi bi-heart  text-red-500"></i>
+                                
+                               
+                            </div>
+                            <div class="flex flex-col space-y-3 items-start">
+                                <span>Montera Dk Var</span>
+                                <span class="text-yellow-500">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <i class="bi bi-star"></i>
+                                    <span>(85)</span>
+                                </span>
+                                <div class="flex flex-row space-x-10">
+                                    <div class=" flex flex-col">
+                                        <span class="text-black/60">price</span>
+                                        <span>$350</span>
+                                    </div>
+                                    <button class="border-none text-black/80 bg-green-100 rounded-3xl px-3 py-2 text-center">add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="w-2/5 h-full flex flex-col space-y-5 border border-l p-8">
+                    <div class="h-[300px] relative flex items-center justify-center">
+                        <div class="h-full" id="containerImage">
+                            <img src="./images/plant/plant6.avif" id="imagePlant" class="h-full" alt="">
+                        </div>
+                        <div class="flex justify-center items-center rounded-full w-[40px] h-[40px] bg-neutral-100 top-4 right-4 absolute cursor-pointer">
+                            <i class="bi bi-x-lg  "></i>
+                        </div>
+                    </div>
+                    <div class="flex justify-around">
+                        <img src="./images/plant/plant2.png" class="w-[80px] h-[80px] rounded-lg border" alt="">
+                        <img src="./images/plant/plant5.png" class="w-[80px] h-[80px] rounded-lg border" alt="">
+                        <img src="./images/plant/plant4.png" class="w-[80px] h-[80px] rounded-lg border" alt="">
+                        <div class="flex items-center justify-center relative">
+                            <img src="./images/plant/plant3.png" id="imagePlantSelected" class="w-[80px] h-[80px] rounded-lg border" alt="">
+                            <span class="absolute text-white font-bold">+5</span>
+                        </div>
+                        
+                    </div>
+                   <div class="w-[60%]">
+                        <span class="font-bold text-2xl">Montera Deliciosa Variagita(Large)</span>
+                   </div>
+                   <div class="w-[80%]">
+                    <p class="text-black/50 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatum mollitia, laudantium vel, 
+                        commodi architecto provident 
+                        in maxime expedita porro fugit quisquam ab sunt molestias voluptate consequatur at, quas facere...<span class="text-green-500">Read more</span></p>
+                   </div>
+                   <div class="flex justify-around">
+                    <button class="border-b-2 py-3 px-8 border-green-700">Details</button>
+                    <button>Reviews(32)</button>
+                    </div>
+                    <div class="flex justify-around pt-2">
+                        <button class="text-xs text-black/50 px-12 py-2 rounded-lg bg-neutral-200">120cm</button>
+                        <button class="text-xs text-black/50 px-8 py-2 rounded-lg bg-neutral-200">animal save</button>
+                   </div>
+                   <div class="flex relative items-center justify-center space-x-8 pb-6">
+                    <div class="flex items-center justify-center bg-red-100 w-[40px] h-[40px] rounded-md">
+                        <i class="bi bi-heart-fill  text-red-500"></i>
+                        
+                    </div>
+                    <button class="border-none text-white bg-green-600 rounded-lg px-6 py-2 text-center">$325 - Add to cart</button>
+                   </div>
+
+                </div>
+            </div>
+            
+        </div>
+       
+       
+        
+        
+    </section>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
